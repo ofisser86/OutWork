@@ -25,5 +25,6 @@ class actionChatAuth extends cmsAction
 
 
         ));
+        if(cmsUser::isLogged()){echo "Hello world";}
     }
 }

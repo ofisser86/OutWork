@@ -1,0 +1,8 @@
+*.[oa]
+*~
+cache/
+client/
+server/
+mgVideoChat/
+*.txt
+system/config
