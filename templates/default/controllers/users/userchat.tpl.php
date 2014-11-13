@@ -10,8 +10,8 @@
 </div>
 
 <?php
-echo 'Id second user is '.' '.$user2;
-setcookie('mgVideoChatSimple', $userName['nickname'], time()+3600, '/');
+//echo 'Id second user is '.' '.$user2;
+setcookie('mgVideoChatSimple', $userName->nickname, time()+3600, '/');
 echo '<input type="hidden" id="room" value="'.$id.'" />';
 ?>
 
@@ -51,8 +51,8 @@ echo '<input type="hidden" id="room" value="'.$id.'" />';
         });
     });
     /*
-          $('#mgVideoChat').mgVideoChat({
-         wsURL: 'ws://www.inst.loc:8080?room=8'
-    });
-*/
+     $('#mgVideoChat').mgVideoChat({
+     wsURL: 'ws://www.inst.loc:8080?room=8'
+     });
+     */
 </script>

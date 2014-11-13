@@ -77,7 +77,8 @@ class actionUsersProfile extends cmsAction {
             'content_counts' => $content_counts,
             'fields' => $fields,
             'wall_html' => isset($wall_html) ? $wall_html : false,
-            'tabs' => $this->getProfileMenu($profile)
+            'tabs' => $this->getProfileMenu($profile),
+            'id' =>  $profile['id'],
         ));
 
     }

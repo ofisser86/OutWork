@@ -1,11 +1,10 @@
 <?php
-
-class actionChatIndex extends cmsAction
+class actionUsersUserchat extends cmsAction
 {
 
     public function run()
     {
-
+/*
         $id = $_SESSION['user']['id'];
 
         if (!$id) {
@@ -13,20 +12,21 @@ class actionChatIndex extends cmsAction
         }
 
         $userName = $this->model->userGet($id);
+/*/
+        $userName = cmsUser::getInstance();
 
         if (!$userName) {
             cmsCore::error404();
         }
-        $user2 = cmsUser::getInstance();
-        $user2 = $profile['id'];
+        //$user2 = cmsUser::getInstance();
+        //$user2 = $profile['id'];
         $template = cmsTemplate::getInstance();
-        $template->render('index', array(
-            'id' => $id,
+        $template->render('userchat', array(
+            //'id' => $profile['id'],
             'userName' => $userName,
-            'user2' => $user2,
+            //'user2' => $user2,
 
 
         ));
     }
 }
-

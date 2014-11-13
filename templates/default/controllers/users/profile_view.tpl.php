@@ -154,7 +154,8 @@
             <ul class="content_counts">
                 <li>
                     <!-- -------------------------------------- LInk to start Chat   --------------------------------- -->
-                    <a href="<?php echo href_to('chat')?>"><?php echo LANG_USERS_CHAT_START ?></a>
+                    <a href="<?php echo $this->href_to('userchat','?room='.$profile['id'])?>"><?php echo LANG_USERS_CHAT_START ?></a>
+                    <h1><?php echo 'ID of User profile  is '.' '.$id?></h1>
                 </li>
 
             </ul>
