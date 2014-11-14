@@ -10,7 +10,7 @@
 </div>
 
 <?php
-//echo 'Id second user is '.' '.$user2;
+//echo 'Id second user is '.' '.$userNmae->nickname;
 setcookie('mgVideoChatSimple', $userName->nickname, time()+3600, '/');
 echo '<input type="hidden" id="room" value="'.$id.'" />';
 ?>
@@ -21,7 +21,7 @@ echo '<input type="hidden" id="room" value="'.$id.'" />';
 <script>
 
     //get query string param
-    function getParameterByName(name) {
+   /* function getParameterByName(name) {
         name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
             results = regex.exec(location.search);
@@ -50,9 +50,11 @@ echo '<input type="hidden" id="room" value="'.$id.'" />';
             wsURL: 'ws://' + wsDomain + ':' + wsPort + '?room='+ room
         });
     });
-    /*
+    */
+
      $('#mgVideoChat').mgVideoChat({
-     wsURL: 'ws://www.inst.loc:8080?room=8'
+     wsURL: 'ws://' + wsDomain + ':' + wsPort
+                                                    //ws://www.inst.loc:8080'
      });
-     */
+
 </script>
