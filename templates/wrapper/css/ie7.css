@@ -1,0 +1,8 @@
+*:first-child+html .clear,
+*:first-child+html .limiter{
+	zoom: 1;
+}
+.widget > .title .title_wrap{
+	display: inline;
+	zoom: 1;
+}
