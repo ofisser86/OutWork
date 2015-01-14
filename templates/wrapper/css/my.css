@@ -1,6 +1,7 @@
 .mainsearch {
    background-image: url("../images/work.png");
    height: 600px;
+    width: 100%;
     }
 #textbanner {
     color: white;
@@ -54,4 +55,51 @@ section {
 .button.raised:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     transition-delay: 0s;
+}
+/*===================================Block menu Widget===========================================================*/
+.sectionWrapper {
+    clear:both;
+    width: 100%;
+    height: 700px;
+    border: 5px solid red;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right-value: auto;
+    margin-bottom: 0px;
+    margin-left-value: auto;
+    margin-left-ltr-source: physical;
+    margin-left-rtl-source: physical;
+    margin-right-ltr-source: physical;
+    margin-right-rtl-source: physical;
+    position:relative;
+    padding: 45px 0px 0px 35px;
+    padding-top: 45px;
+    padding-right-value: 0px;
+    padding-bottom: 0px;
+    padding-left-value: 35px;
+    padding-left-ltr-source: physical;
+    padding-left-rtl-source: physical;
+    padding-right-ltr-source: physical;
+    padding-right-rtl-source: physical;
+}
+.sectionWrapper a{
+    text-decoration: none;
+
+}
+.blockMenu {
+    min-height: 300px;
+    min-width: 275px;
+    border: 1px solid transparent;
+    background-color: green;
+    margin: 10px 5px 20px 5px;
+    float: left;
+    position:relative;
+    text-align:center;
+}
+.blockMenu:hover{
+    border: 1px solid #DDD;
+}
+#one{
+    background-image: url("../images/izoterika.png");
+
 }
