@@ -38,11 +38,11 @@
 	define('LANG_PFREELANCERS_ZCOUNTTUPE2', 'Количество проектов для получения второй группы квалификации работодателя');
 	define('LANG_PFREELANCERS_ZCOUNTTUPE3', 'Количество проектов для получения третей группы квалификации работодателя');
     define('LANG_FREELANCERS_WOIS', 'Кто вы?');
-    define('LANG_FREELANCER', 'Фрилансер');
+    define('LANG_FREELANCER', 'Специалист');
     define('LANG_ZFREELANCER', 'Заказщик');
     define('LANG_FREELANCERS_DOGOVOR', 'Работа по договору');
     define('LANG_FREELANCERS_ORG', 'Организация');
-    define('LANG_FREELANCERS_ORGCHP', 'Чп');
+    define('LANG_FREELANCERS_ORGCHP', 'ЧП');
     define('LANG_FREELANCERS_ORGOOO', 'ООО');
     define('LANG_FREELANCERS_ORGCHL', 'Частное лицо');
     define('LANG_FREELANCERS_SPES', 'Специализация');

@@ -85,6 +85,7 @@
         <?php if ($content_counts) { ?>
             <div class="block">
                 <ul class="content_counts">
+
                     <?php foreach($content_counts as $ctype_name=>$count){ ?>
                         <?php if (!$count['is_in_list']) { continue; } ?>
                         <li>
@@ -146,6 +147,16 @@
                     <?php html($profile['ip']); ?>
                 </li>
                 <?php } ?>
+
+            </ul>
+            </div>
+<div class="block">
+            <ul class="content_counts">
+                <li>
+                    <!-- -------------------------------------- LInk to start Chat   --------------------------------- -->
+                    <a href="<?php echo $this->href_to('userchat','?room='.$profile['id'])?>"><?php echo LANG_USERS_CHAT_START ?></a>
+                    <!--<?php echo 'ID of User profile  is '.' '.$id?> -->
+                </li>
 
             </ul>
 

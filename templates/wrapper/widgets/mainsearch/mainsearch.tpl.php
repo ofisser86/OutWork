@@ -8,7 +8,7 @@
         <paper-ripple fit></paper-ripple>
     </div>
     <div class="button raised blue">
-            <div class="center" fit><?php echo LANG_WD_MAINSEARCH_SEARCH?></div>
+            <div class="center" fit><a href="<?php echo href_to('freelancers','')?>"><?php echo LANG_WD_MAINSEARCH_SEARCH?></a></div>
             <paper-ripple fit></paper-ripple>
     </div>
 </section>

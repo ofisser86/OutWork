@@ -1,7 +1,7 @@
 .mainsearch {
    background-image: url("../images/work.png");
    height: 600px;
-    width: 100%;
+    width: 1200px;
     }
 #textbanner {
     color: white;
@@ -30,7 +30,10 @@ section {
     color: #646464;
     text-align: center;
 }
-
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
 .button > paper-ripple {
     border-radius: 2px;
     overflow: hidden;
@@ -58,30 +61,18 @@ section {
 }
 /*===================================Block menu Widget===========================================================*/
 .sectionWrapper {
-    clear:both;
-    width: 100%;
+    /*clear:both;*/
+    width: 1150px;
     height: 700px;
-    border: 5px solid red;
-    margin: 0px auto;
-    margin-top: 0px;
-    margin-right-value: auto;
-    margin-bottom: 0px;
-    margin-left-value: auto;
-    margin-left-ltr-source: physical;
-    margin-left-rtl-source: physical;
-    margin-right-ltr-source: physical;
-    margin-right-rtl-source: physical;
-    position:relative;
-    padding: 45px 0px 0px 35px;
-    padding-top: 45px;
-    padding-right-value: 0px;
-    padding-bottom: 0px;
-    padding-left-value: 35px;
-    padding-left-ltr-source: physical;
-    padding-left-rtl-source: physical;
-    padding-right-ltr-source: physical;
-    padding-right-rtl-source: physical;
+    padding: 20px 22px 20px 20px;
 }
+.sectionWrapper div{
+    height: 300px;
+    margin-bottom: 20px;
+    float: left;
+    width: 275px;
+}
+
 .sectionWrapper a{
     text-decoration: none;
 
@@ -90,16 +81,17 @@ section {
     min-height: 300px;
     min-width: 275px;
     border: 1px solid transparent;
-    background-color: green;
-    margin: 10px 5px 20px 5px;
-    float: left;
-    position:relative;
+    /*background-color: green;*/
     text-align:center;
+    text-align: center;
+    font: bold 16px/1.4em "Times New Roman",courier-ps-w01,courier-ps-w02,courier-ps-w10;
+    margin-right: 10px;
+    box-shadow: #808080;
+    padding-top: 5px;
 }
 .blockMenu:hover{
-    border: 1px solid #DDD;
+    border: 1px solid deepskyblue;
 }
 #one{
     background-image: url("../images/izoterika.png");
-
 }
